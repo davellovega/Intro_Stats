@@ -6,7 +6,12 @@ STOP
 Introduction to Statistics for Social Science
 Semester 2, 2026
 
-Week 3 Lab: Monday 11am 
+Week 3 Lab:
+- Visualising interval variables (histograms, density plots, boxplots)
+- Visualising categorical variables (bar charts)
+- Percentages and cummulative percentages using *fre*
+- Two-way tables using *tab*
+
 Prepared by: Dalia Avello-Vega
 */
 
