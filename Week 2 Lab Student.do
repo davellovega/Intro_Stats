@@ -62,31 +62,38 @@ codebook health
 //#  2. TABULATIONS
 
 /*
-This week, we will produce tabulations to explore the distribution of the variables.
-
-* What is the distribution of variable AGE in our dataset?
+Last week we used frequency tables (using codebook) to explore how different variables were coded. This week, we will produce tabulations with a different purpose: to explore the distribution of the variables.
+Today we are interested in the distribution of the variable age in the ADRC_S dataset. Starting from the commands we know, we can type:
 */
 
-&&&&&&&&&&
-&&&&&&&&&&
+br age
+codebook age
+
 
 //### Q1) What is the range of values of age?
-
+******************************
 
 //### Q2) How many unique values does age have in this dataset?
+******************************
 
+*Age has many values, and no value labels. In this case, value labels are not necessary because each number represents exactly it value (a year of age). Still, codebook gives you a description of this variable, including its range and how many values are missing (that is, how many values are set as = .) 
 
 //### Q3) How many missing values does age have?
-
+******************************
 
 *We can create a table to display all possible values of age
 &&&&&&&&&& //tabulate age
 
 //### Q4) How many people are 13 years old in the dataset? How many are 93 years old?
+*In order to make a table displaying all the possible values of age, we can use tabulate (or tab for short).
+
+tab age
+
 
 //### Q5) What percentage of people are aged 13? What percentage are aged 93?
 
-*Workhours
+
+*Using your own code, answer the following questions about variable workhours.
 
 //### Q6) What is the variable label for workhours?
 &&&&&&&&&&
