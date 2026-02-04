@@ -6,7 +6,12 @@ STOP
 Introduction to Statistics for Social Science
 
 Semester 2, 2026
-Week 2 Lab: Monday 11am 
+Week 2 Lab:
+•	Tabulations 
+•	Histograms
+•	Measures of central tendency (mean, median, mode)
+•	Measures of dispersion (range, interquartile range, standard deviation, variance)
+•	Generating variables
 
 Prepared by: Dalia Avello-Vega
 */
